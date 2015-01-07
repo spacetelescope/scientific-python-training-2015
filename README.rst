@@ -193,24 +193,5 @@ Installing AstroPy
 Ureka
 ~~~~~
 
-If you are using `Ureka <http://ssb.stsci.edu/ureka/1.0beta3/docs/index.html>`_
-download the
-`AstroPy Ureka add-on <http://stsdas.stsci.edu/download/astropy-2012-12-05-addon.tar.gz>`_
-and install it with::
+For the easiest install use Ureka: http://ssb.stsci.edu/ssb_software.shtml (and install the SSBX version)
 
-  ur-install astropy-2012-12-05-addon.tar.gz common
-
-Windows
-~~~~~~~
-
-Download and run the
-`AstroPy windows installer <http://stsdas.stsci.edu/download/astropy-2012-12-05.win32-py2.7.exe>`_.
-
-Other
-~~~~~
-
-Those using their own setups will need to install Astropy from source.
-Download the
-`source tarball <http://stsdas.stsci.edu/download/astropy-2012-12-05.tar.gz>`_,
-extract it, and run ``python setup.py install`` in the
-``astropy-2012-12-05`` directory.
