@@ -1,4 +1,4 @@
-STSCI's Scientific Python Course 2012
+STSCI's Scientific Python Course 2015
 =====================================
 
 Introduction
@@ -17,7 +17,7 @@ Course Material
 Video of all the presentations is available
 `on the STScI webpage <https://webcast.stsci.edu/webcast/searchresults.xhtml?searchtype=20&eventid=184&sortmode=1>`_.
 
-Completed homework and demo IPython Notebooks are available in the
+Homework and demo IPython Notebooks are available in the
 `homework_notebooks <./homework_notebooks>`_ and
 `lecture_notebooks <./lecture_notebooks>`_ directories.
 
@@ -27,43 +27,43 @@ Schedule
 ============== ============== ==========
 Session 1
 ----------------------------------------
-Lecture        Nov. 28, 10 AM Auditorium
-Problem Review Dec. 5, 1 PM   Cafe Con
+Work Session   Jan 16, 3 PM   Cafe Con
+Problem Review Jan 23, 3 PM   Cafe Con
 ============== ============== ==========
 
 ============== ============== ==========
 Session 2
 ----------------------------------------
-Lecture        Dec. 12, 9 AM  Auditorium
-Problem Review Dec. 19, 9 AM  Boardroom
+Work Session   Jan 30, 3 PM   Cafe Con
+Problem Review Feb 6,  3 PM   Cafe Con
 ============== ============== ==========
 
 ============== ============== ==========
 Session 3
 ----------------------------------------
-Lecture        Jan. 16, 10 AM Auditorium
-Problem Review Jan. 23, 10 AM Cafe Con
+Work Session   Feb 13, 3 PM   Cafe Con
+Problem Review Feb 20, 3 PM   Cafe Con
 ============== ============== ==========
 
 ============== ============== ==========
 Session 4
 ----------------------------------------
-Lecture        Jan. 30, 10 AM Auditorium
-Problem Review Feb. 6, 10 AM  Boardroom
+Work Session   Feb 27, 3 PM   Cafe Con
+Problem Review Mar  6, 3 PM   Cafe Con
 ============== ============== ==========
 
 ============== ============== ==========
 Session 5
 ----------------------------------------
-Lecture        Feb. 13, 10 AM Auditorium
-Problem Review Feb. 20, 10 AM Boardroom
+Work Session   Mar 13, 3 PM   Cafe Con
+Problem Review Mar 20, 3 PM   Cafe Con
 ============== ============== ==========
 
 ============== ============== ==========
 Session 6
 ----------------------------------------
-Lecture        Mar. 13, 10 AM Auditorium
-Problem Review Mar. 20, 10 AM Boardroom
+Work Session   Mar 27, 3 PM   Cafe Con
+Problem Review Apr  3, 3 PM   Cafe Con
 ============== ============== ==========
 
 Course Outline
