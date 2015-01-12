@@ -21,6 +21,8 @@ Homework and demo IPython Notebooks are available in the
 `homework_notebooks <./homework_notebooks>`_ and
 `lecture_notebooks <./lecture_notebooks>`_ directories.
 
+Homeworks are due the end of Wednesday before the Problem Review date
+
 Schedule
 --------
 
