@@ -228,7 +228,7 @@ def find_objects(inputImage):
     
     return output_locations #return the name of the saved file
     
-def do_phot(inputImage, coord_list, aper="4.", sky_annulus=8., width_sky=3.,zeropoint=25.):
+def do_phot(inputImage, coord_list, ext=1, aper="4.", sky_annulus=8., width_sky=3.,zeropoint=25.):
     """
     perform aperture photmoetry on the input image at the specified locations
     
@@ -265,7 +265,8 @@ def do_phot(inputImage, coord_list, aper="4.", sky_annulus=8., width_sky=3.,zero
     iraf.fitskypars.khist=3
     iraf.fitskypars.binsi=0.1
 
-    inputImage =inputImage + "[SCI,1]" #assumed, might be risky
+    if ext==1:
+        inputImage =inputImage + "[SCI,1]" #assumed, might be risky
     iraf.phot.coords=coord_list
     iraf.phot.output=output
     iraf.daophot.phot.verify="no"

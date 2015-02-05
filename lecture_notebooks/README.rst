@@ -39,3 +39,18 @@ Updates for Session 3 notebook: (2, Feb 2015, mls):
 * The notebook used in this lecture uses pyfits. That module is still available, but all future updates are to the version now resident in astropy.io.fits.
 * For some reason the np and plt references are not in the notebook, I've added them in the appropriate places since those functions are not implicitly imported at the top.
 * astropy ascii tables with INDEF values are now read in as masked arrays. In order to removed the masked values from the table you don't need to select on the string INDEF, you can use the mask to create new arrays. The example here was updated in the new notebook to reflect that.
+
+
+Updates for Session 4 notebook: (4, Feb 2015, mls):
+
+* I created an alternate notebook with the updates detailed below already implemented, it has the same name but with a u appended before the suffix: `Session3_Photometry <http://nbviewer.ipython.org/urls/raw.github.com/spacetelescope/scientific-python-training-2015/master/lecture_notebooks/Session4_Phot_2u.ipynb>`_
+
+* The notebook used in this lecture uses pyfits. That module is still available, but all future updates are to the version now resident in astropy.io.fits.
+* Updated the making running scripts to specify execution in the bash shell
+* Added links to PyCharm and Wing, to of the more popular IDEs to encourage that for developments purposes
+* Made a minor text edit to the text explaining crashes in the Defaults and Arguments section
+* Made minor edit for bash style execution on  bozo3.py run example
+* Added an example of downselecting an astropy table using a combination of one columns mask values and numerical values in two other columns
+* Made some minor text edits in the completeness testing section
+* I updated the scripts which are associated with the lecture examples
+
