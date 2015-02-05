@@ -43,7 +43,7 @@ Updates for Session 3 notebook: (2, Feb 2015, mls):
 
 Updates for Session 4 notebook: (4, Feb 2015, mls):
 
-* I created an alternate notebook with the updates detailed below already implemented, it has the same name but with a u appended before the suffix: `Session3_Photometry <http://nbviewer.ipython.org/urls/raw.github.com/spacetelescope/scientific-python-training-2015/master/lecture_notebooks/Session4_Phot_2u.ipynb>`_
+* I created an alternate notebook with the updates detailed below already implemented, it has the same name but with a u appended before the suffix: `Session4_Photometry <http://nbviewer.ipython.org/urls/raw.github.com/spacetelescope/scientific-python-training-2015/master/lecture_notebooks/Session4_Phot_2u.ipynb>`_
 
 * The notebook used in this lecture uses pyfits. That module is still available, but all future updates are to the version now resident in astropy.io.fits.
 * Updated the making running scripts to specify execution in the bash shell
