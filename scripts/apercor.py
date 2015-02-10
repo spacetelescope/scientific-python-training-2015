@@ -3,12 +3,12 @@ from __future__ import print_function
 import os,sys
 
 
-import pyfits
+from astropy.io import fits 
 from pyraf import iraf
 from iraf import noao,digiphot,daophot
 
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib.pylab as plt
 from tempfile import mkstemp
 import aperphot
 
@@ -16,7 +16,7 @@ __version__ = "1.0 (2012 Jan 30)"
 __author__ = "Megan Sosey"
 
 
-def apercor(image,plotname='aperture_correction.pdf',save=False):
+def apercor(image,plotname='aperture_correction.pdf',save=False, ext=0):
 
     """
 	    Megan Sosey, January 2013
@@ -51,7 +51,7 @@ def apercor(image,plotname='aperture_correction.pdf',save=False):
         
     
     aperphot.set_daopars(1.) #nasic pars we want, set gain to 1
-    data=pyfits.getdata(image)
+    data=fits.getdata(image)
     xsize,ysize=data.shape
     
     starfile,cooname=mkstemp(suffix='coo',dir='./') #temp location file in current directory
@@ -68,7 +68,7 @@ def apercor(image,plotname='aperture_correction.pdf',save=False):
     alist= ",".join(aperlist)   
         
     #pick a sky annulus towards the edge of the image
-    aperphot.do_phot(image,cooname, aper=alist, sky_annulus=xsize-20, width_sky=3.,zeropoint=25.)
+    aperphot.do_phot(image,cooname, ext=0, aper=alist, sky_annulus=xsize-20, width_sky=3.,zeropoint=25.)
     
     
     #read in the output file, but in this case I'm going to use daophot.pdump to directly pull the info I want
