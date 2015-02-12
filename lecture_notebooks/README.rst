@@ -39,7 +39,7 @@ Updates for Session 3 notebook: (2, Feb 2015, mls):
 * The notebook used in this lecture uses pyfits. That module is still available, but all future updates are to the version now resident in astropy.io.fits.
 * For some reason the np and plt references are not in the notebook, I've added them in the appropriate places since those functions are not implicitly imported at the top.
 * astropy ascii tables with INDEF values are now read in as masked arrays. In order to removed the masked values from the table you don't need to select on the string INDEF, you can use the mask to create new arrays. The example here was updated in the new notebook to reflect that.
-
+* An alternate notebook using `photutils <http://photutils.readthedocs.org/>`_ is available here: `Session 3 Photometry using photutils <http://nbviewer.ipython.org/urls/raw.github.com/spacetelescope/scientific-python-training-2015/master/lecture_notebooks/Session3_Phot_Phun_photutils.ipynb>`_
 
 Updates for Session 4 notebook: (4, Feb 2015, mls):
 
