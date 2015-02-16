@@ -57,8 +57,8 @@ Problem Review Mar  6, 3 PM   Cafe Con
 ============== ============== ==========
 Session 5
 ----------------------------------------
-Work Session   Mar 13, 3 PM   Cafe Con
-Problem Review Mar 20, 3 PM   Cafe Con
+Work Session   Mar 13, 1 PM   Cafe Con
+Problem Review Mar 20, 1 PM   Cafe Con
 ============== ============== ==========
 
 ============== ============== ==========
