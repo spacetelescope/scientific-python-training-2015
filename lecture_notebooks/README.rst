@@ -26,14 +26,10 @@ Updates for Session 2 notebook: (22 Jan 2015, rij):
 * updated directory locations to refer to my Windows laptop
 
 * `Session2_Basic <http://nbviewer.ipython.org/urls/raw.github.com/spacetelescope/scientific-python-training-2015/master/lecture_notebooks/Session2_Basic.ipynb>`_
-* `Session3_Phot_Phun_1 <http://nbviewer.ipython.org/urls/raw.github.com/spacetelescope/scientific-python-training-2015/master/lecture_notebooks/Session3_Phot_Phun_1.ipynb>`_
-* `Session4_phot_2 <http://nbviewer.ipython.org/urls/raw.github.com/spacetelescope/scientific-python-training-2015/master/lecture_notebooks/Session4_phot_2.ipynb>`_
-* `Session5_STIS_Spec <http://nbviewer.ipython.org/urls/raw.github.com/spacetelescope/scientific-python-training-2015/master/lecture_notebooks/Session5_STIS_Spec.ipynb>`_
-* `Session6_Exceptions <http://nbviewer.ipython.org/urls/raw.github.com/spacetelescope/scientific-python-training-2015/master/lecture_notebooks/Session6_Exceptions.ipynb>`_
-* `Session6_Various_Topics <http://nbviewer.ipython.org/urls/raw.github.com/spacetelescope/scientific-python-training-2015/master/lecture_notebooks/Session6_Various_Topics.ipynb>`_
 
 Updates for Session 3 notebook: (2, Feb 2015, mls):
 
+* `Session3_Phot_Phun_1 <http://nbviewer.ipython.org/urls/raw.github.com/spacetelescope/scientific-python-training-2015/master/lecture_notebooks/Session3_Phot_Phun_1.ipynb>`_
 * I created an alternate notebook with the updates detailed below already implemented, it has the same name but with a u appended before the suffix: `Session3_Photometry <http://nbviewer.ipython.org/urls/raw.github.com/spacetelescope/scientific-python-training-2015/master/lecture_notebooks/Session3_Phot_Phun_1u.ipynb>`_
 
 * The notebook used in this lecture uses pyfits. That module is still available, but all future updates are to the version now resident in astropy.io.fits.
@@ -43,6 +39,7 @@ Updates for Session 3 notebook: (2, Feb 2015, mls):
 
 Updates for Session 4 notebook: (4, Feb 2015, mls):
 
+* `Session4_phot_2 <http://nbviewer.ipython.org/urls/raw.github.com/spacetelescope/scientific-python-training-2015/master/lecture_notebooks/Session4_phot_2.ipynb>`_
 * I created an alternate notebook with the updates detailed below already implemented, it has the same name but with a u appended before the suffix: `Session4_Photometry <http://nbviewer.ipython.org/github/spacetelescope/scientific-python-training-2015/blob/master/lecture_notebooks/Session4_phot_2u.ipynb>`_
 
 * The notebook used in this lecture uses pyfits. That module is still available, but all future updates are to the version now resident in astropy.io.fits.
@@ -54,3 +51,12 @@ Updates for Session 4 notebook: (4, Feb 2015, mls):
 * Made some minor text edits in the completeness testing section
 * I updated the scripts which are associated with the lecture examples
 
+Updates for Session 5 notebook: (16, Feb 2015, @pllim):
+
+* TBD
+* `Session5_STIS_Spec <http://nbviewer.ipython.org/urls/raw.github.com/spacetelescope/scientific-python-training-2015/master/lecture_notebooks/Session5_STIS_Spec.ipynb>`_
+
+Updates for Session 6 notebook: (TBD)
+
+* `Session6_Exceptions <http://nbviewer.ipython.org/urls/raw.github.com/spacetelescope/scientific-python-training-2015/master/lecture_notebooks/Session6_Exceptions.ipynb>`_
+* `Session6_Various_Topics <http://nbviewer.ipython.org/urls/raw.github.com/spacetelescope/scientific-python-training-2015/master/lecture_notebooks/Session6_Various_Topics.ipynb>`_
