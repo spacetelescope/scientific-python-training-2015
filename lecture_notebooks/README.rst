@@ -51,9 +51,15 @@ Updates for Session 4 notebook: (4, Feb 2015, mls):
 * Made some minor text edits in the completeness testing section
 * I updated the scripts which are associated with the lecture examples
 
-Updates for Session 5 notebook: (16, Feb 2015, @pllim):
+Updates for Session 5 notebook: (16, Feb 2015, pll):
 
-* TBD
+* Use `%matplotlib inline` magic
+* `pyfits` now points to `astropy.io.fits`
+* Path to file is changed to relative path that follows repo layout
+* Added explicit calls to `matplotlib.pyplot` instead of relying on `pylab`
+* Added Gaussian fitting example using `astropy.modeling`
+* Change final spectrum plot from log to linear flux scale because CALSTIS now
+  gives negative flux values in some part of the spectrum
 * `Session5_STIS_Spec <http://nbviewer.ipython.org/urls/raw.github.com/spacetelescope/scientific-python-training-2015/master/lecture_notebooks/Session5_STIS_Spec.ipynb>`_
 
 Updates for Session 6 notebook: (TBD)

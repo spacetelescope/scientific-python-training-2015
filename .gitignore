@@ -29,5 +29,10 @@ pip-log.txt
 # Student solutions on Matt's computer
 student_solutions
 
+# iPython notebook outputs
+*/.ipynb_checkpoints
+lecture_notebooks/*.fits
+homework_notebooks/*.fits
+
 # Mac stuff
 .DS_Store
