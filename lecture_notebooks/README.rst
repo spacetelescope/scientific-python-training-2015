@@ -62,7 +62,9 @@ Updates for Session 5 notebook: (16, Feb 2015, pll):
   gives negative flux values in some part of the spectrum
 * `Session5_STIS_Spec <http://nbviewer.ipython.org/urls/raw.github.com/spacetelescope/scientific-python-training-2015/master/lecture_notebooks/Session5_STIS_Spec.ipynb>`_
 
-Updates for Session 6 notebook: (TBD)
+Updates for Session 6 notebook: (2015 March 23)
 
-* `Session6_Exceptions <http://nbviewer.ipython.org/urls/raw.github.com/spacetelescope/scientific-python-training-2015/master/lecture_notebooks/Session6_Exceptions.ipynb>`_
+* The import for Image is incorrect. It should be "from PIL import Image"
+* Ignore the deprecation warnings on some of the commands
+
 * `Session6_Various_Topics <http://nbviewer.ipython.org/urls/raw.github.com/spacetelescope/scientific-python-training-2015/master/lecture_notebooks/Session6_Various_Topics.ipynb>`_
